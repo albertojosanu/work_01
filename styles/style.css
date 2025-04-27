@@ -17,6 +17,8 @@ body {
     background: #E1FF8F;
     height: 710px;
     position: relative;
+    overflow: hidden;
+    z-index: -2;
 }
 
 .header__title {
@@ -25,19 +27,14 @@ body {
     font-weight: 700;
     line-height: 78px;
     max-width: 768px;
-    position: absolute;
-    z-index: 1;
 }
 
 .header__description {
-    /*margin-top: 24px;*/
-    top: 376px;
+    margin-top: 24px;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
     max-width: 720px;
-    position: absolute;
-    z-index: 1;
 }
 
 .header__bold {
@@ -47,8 +44,7 @@ body {
 }
 
 .header__button {
-    /*margin-top: 48px;*/
-    top: 488px;
+    margin-top: 48px;
     width: 247px;
     height: 66px;
     padding: 16px 28px 16px 28px;
@@ -59,8 +55,6 @@ body {
     font-family: inherit;
     font-size: 24px;
     font-weight: 600;
-    position: absolute;
-    z-index: 1;
 }
 
 .header__button:hover {
@@ -71,34 +65,35 @@ body {
 
 .header__image {
     position: absolute;
-    /*left: 854px;*/
+    z-index: -1;
     left: 734px;
     top: -333px;
 }
 
 .header__image-2 {
     position: absolute;
-    /*left: 63px;*/
+    z-index: -1;
     left: -57px;
     top: 94px;    
 }
 
 .header__image-3 {
     position: absolute;
-    /*left: 156px;*/
+    z-index: -1;
     left: 36px;
     top: 69px;    
 }
 
 .header__image-4 {
     position: absolute;
-    /*left: 1013px;*/
+    z-index: -1;
     left: 893px;
     top: 568px;    
 }
 
 .header__image-5 {
     position: absolute;
+    z-index: -1;
     left: 948px;
     top: 538px;    
 }
@@ -106,6 +101,7 @@ body {
 .line {
     background: rgb(188, 236, 48);
     height: 90px;
+    overflow: hidden;
 }
 
 .line__list {
@@ -130,15 +126,15 @@ body {
     background: rgb(32, 32, 39);
     position: relative;
     height: 1470px;
+    overflow: hidden;
+    z-index: -2;
 }
 
 .about__title {
     color: white;
     font-size: 64px;
     font-weight: 700;
-    top: 94px;
-    position: absolute;
-    z-index: 1;
+    padding-top: 94px;
 }
 
 .about__description {
@@ -146,33 +142,31 @@ body {
     max-width: 788px;
     font-size: 24px;
     font-weight: 400;
-    top: 196px;
-    position: absolute;
-    z-index: 1;
+    padding-top: 24px;
 }
 
 .about__image-11 {
     position: absolute;
-    /*left: 933px;*/
     left: 813px;
     top: 77px;    
     transform: rotate(-6.77deg);
+    z-index: -1;
 }
 
 .about__image-12 {
     position: absolute;
-    left: 25px;
     left: -95px;
     top: 770px;    
     transform: rotate(5.45deg);
+    z-index: -1;
 }
 
 .about__image-13 {
     position: absolute;
-    /*left: 40px;*/
     left: -80px;
     top: 822px;    
     transform: rotate(5.45deg);
+    z-index: -1;
 }
 
 .about__list {
@@ -180,9 +174,7 @@ body {
     flex-wrap: wrap;
     column-gap: 32px;
     row-gap: 0px;
-    top: 364px;
-    position: absolute;
-    z-index: 1;
+    padding-top: 72px;
     max-width: 1200px;
 }
 
@@ -203,54 +195,52 @@ body {
     background: rgb(32, 32, 39);
     position: relative;
     height: 3500px;
+    overflow: hidden;
+    z-index: -2;
 }
 
 .games__title {
     color: white;
     font-size: 64px;
     font-weight: 700;
-    top: 46px;
-    position: absolute;
-    z-index: 1;
+    padding-top: 46px;
 }
 
 .games__image-14 {
     position: absolute;
-    /*left: 1320px;*/
     left: 1200px;
     top: 126px;    
     transform: rotate(5.45deg);
+    z-index: -1;
 }
 
 .games__image-15 {
     position: absolute;
-    /*left: 1277px;*/
     left: 1157px;
     top: 93px;    
     transform: rotate(7.08deg);
+    z-index: -1;
 }
 
 .games__image-16 {
     position: absolute;
-    /*left: 1319px;*/
     left: 1199px;
     top: 3366px;    
+    z-index: -1;
 }
 
 .games__image-17 {
     position: absolute;
-    /*left: 1249px;*/
     left: 1129px;
     top: 3414px;    
+    z-index: -1;
 }
 
 .games__list {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    top: 196px;
-    position: absolute;
-    z-index: 1;
+    padding-top: 72px;
 }
 
 .games__game {
