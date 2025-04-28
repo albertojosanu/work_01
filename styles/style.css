@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", serif;
+    background: rgb(32, 32, 39);
 }
 
 .center {
@@ -18,7 +23,6 @@ body {
     height: 710px;
     position: relative;
     overflow: hidden;
-    z-index: -2;
 }
 
 .header__title {
@@ -44,6 +48,9 @@ body {
 }
 
 .header__button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
     margin-top: 48px;
     width: 247px;
     height: 66px;
@@ -65,37 +72,37 @@ body {
 
 .header__image {
     position: absolute;
-    z-index: -1;
     left: 734px;
     top: -333px;
+    pointer-events: none;
 }
 
 .header__image-2 {
     position: absolute;
-    z-index: -1;
     left: -57px;
     top: 94px;    
+    pointer-events: none;
 }
 
 .header__image-3 {
     position: absolute;
-    z-index: -1;
     left: 36px;
     top: 69px;    
+    pointer-events: none;
 }
 
 .header__image-4 {
     position: absolute;
-    z-index: -1;
     left: 893px;
     top: 568px;    
+    pointer-events: none;
 }
 
 .header__image-5 {
     position: absolute;
-    z-index: -1;
     left: 948px;
     top: 538px;    
+    pointer-events: none;
 }
 
 .line {
@@ -123,11 +130,9 @@ body {
 }
 
 .about {
-    background: rgb(32, 32, 39);
     position: relative;
     height: 1470px;
     overflow: hidden;
-    z-index: -2;
 }
 
 .about__title {
@@ -180,6 +185,11 @@ body {
 
 .about__game {
     align-self: flex-start;
+    width: 378px;
+    background: white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: inherit;
     transition: all 2s;
 }
 
@@ -191,12 +201,30 @@ body {
     align-self: flex-end;
 }
 
+.about__text {
+    padding: 36px;
+}
+
+.about__number {
+    display: inline;
+    border-radius: 52.58px;
+    background: rgb(247, 247, 247);
+    padding: 8px 16px 10px 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about__name {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 26px;
+}
+
 .games {
     background: rgb(32, 32, 39);
     position: relative;
     height: 3500px;
     overflow: hidden;
-    z-index: -2;
 }
 
 .games__title {

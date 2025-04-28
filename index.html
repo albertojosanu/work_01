@@ -14,7 +14,7 @@
     <header class="header center">
         <h1 class="header__title">Добро пожаловать <br>на мой сайт мини-игр</h1>
         <p class="header__description">Тебе предстоит пройти несколько увлекательных игр. Если готов, aнажимай <a href="#" class="header__bold">«Поехали!»</a> и <a href="#" class="header__bold">приступай</a>.</p>
-        <button class="header__button">Поехали!</button>
+        <a href="#about" class="header__button">Поехали!</a>
         <img class="header__image center" src="img/stars.svg" alt="stars">
         <img class="header__image-2 center" src="img/star_2.svg" alt="star_2">
         <img class="header__image-3 center" src="img/star_3.svg" alt="star_3">
@@ -38,18 +38,54 @@
         </div>
     </div>
     <section class="about center">
-        <h2 class="about__title">Об играх</h2>
+        <h2 class="about__title" id="about">Об играх</h2>
         <p class="about__description">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них может поиграть каждый. <br>Все игры доступны для пользования.</p>
         <img class="about__image-11 center" src="img/star_11.svg" alt="star_11">  
         <img class="about__image-12 center" src="img/star_12.svg" alt="star_12">  
         <img class="about__image-13 center" src="img/star_13.svg" alt="star_13">  
         <div class="about__list">
-            <a href="#game1" class="about__game"><img src="img/game_1.png" alt="game_1"></a>  
-            <a href="#game2" class="about__game"><img src="img/game_2.png" alt="game_2"></a> 
-            <a href="#game3" class="about__game"><img src="img/game_3.png" alt="game_3"></a>   
-            <a href="#game4" class="about__game"><img src="img/game_4.png" alt="game_4"></a>   
-            <a href="#game5" class="about__game about__game_end"><img src="img/game_5.png" alt="game_5"></a>   
-            <a href="#game6" class="about__game"><img src="img/game_6.png" alt="game_6"></a>   
+            <a href="#game1" class="about__game">
+                <img src="img/game_1.png" alt="game_1">
+                <div class="about__text">
+                    <p class="about__number">Игра № 1</p>
+                    <p class="about__name">Угадай число</p>
+                </div>
+            </a> 
+            <a href="#game2" class="about__game">
+                <img src="img/game_2.png" alt="game_2">
+                <div class="about__text">
+                    <p class="about__number">Игра № 2</p>
+                    <p class="about__name">Простая арифметика</p>
+                </div>
+            </a> 
+            <a href="#game3" class="about__game">
+                <img src="img/game_3.png" alt="game_3">
+                <div class="about__text">
+                    <p class="about__number">Игра № 3</p>
+                    <p class="about__name">Переверни текст</p>
+                </div>
+            </a> 
+            <a href="#game4" class="about__game">
+                <img src="img/game_4.png" alt="game_4">
+                <div class="about__text">
+                    <p class="about__number">Игра № 4</p>
+                    <p class="about__name">Камень, ножницы, бумага</p>
+                </div>
+            </a> 
+            <a href="#game5" class="about__game about__game_end">
+                <img src="img/game_5.png" alt="game_5">
+                <div class="about__text">
+                    <p class="about__number">Игра № 5</p>
+                    <p class="about__name">Простая викторина</p>
+                </div>
+            </a> 
+            <a href="#game6" class="about__game">
+                <img src="img/game_6.png" alt="game_6">
+                <div class="about__text">
+                    <p class="about__number">Игра № 6</p>
+                    <p class="about__name">Генератор случайных цветов</p>
+                </div>
+            </a>  
         </div>
     </section>
     <section class="games center">
