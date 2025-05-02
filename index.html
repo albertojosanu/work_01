@@ -5,10 +5,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
-
 <body>
-    <p>!</p>
+    <header class="header center">
+        <h1 class="header__title">Добро пожаловать <br>на мой сайт мини-игр</h1>
+        <p class="header__description">Тебе предстоит пройти несколько увлекательных игр. Если готов, aнажимай <a href="#" class="header__bold">«Поехали!»</a> и <a href="#" class="header__bold">приступай</a>.</p>
+        <a href="#about" class="header__button">Поехали!</a>
+        <img class="header__image center" src="img/stars.svg" alt="stars">
+        <img class="header__image-2 center" src="img/star_2.svg" alt="star_2">
+        <img class="header__image-3 center" src="img/star_3.svg" alt="star_3">
+        <img class="header__image-4 center" src="img/star_4.svg" alt="star_4">
+        <img class="header__image-5 center" src="img/star_5.svg" alt="star_5">        
+    </header>  
+    <div class="line">
+        <div class="line__list">
+            <p class="line__text">ВИКТОРИНА</p>
+            <img class="line__image" src="img/star.svg" alt="star">
+            <p class="line__text">УГАДАЙ ЧИСЛО</p>
+            <img class="line__image" src="img/star.svg" alt="star">
+            <p class="line__text">ПЕРЕВЕРНИ ТЕКСТ</p>
+            <img class="line__image" src="img/star.svg" alt="star">
+            <p class="line__text">ПРОСТАЯ АРИФМЕТИКА</p>
+            <img class="line__image" src="img/star.svg" alt="star">
+            <p class="line__text">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</p>
+            <img class="line__image" src="img/star.svg" alt="star">
+            <p class="line__text">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</p>
+            <img class="line__image" src="img/star.svg" alt="star">
+        </div>
+    </div>
+    <section class="about center">
+        <h2 class="about__title" id="about">Об играх</h2>
+        <p class="about__description">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них может поиграть каждый. <br>Все игры доступны для пользования.</p>
+        <img class="about__image-11 center" src="img/star_11.svg" alt="star_11">  
+        <img class="about__image-12 center" src="img/star_12.svg" alt="star_12">  
+        <img class="about__image-13 center" src="img/star_13.svg" alt="star_13">  
+        <div class="about__list">
+            <a href="#game1" class="about__game">
+                <img src="img/game_1.png" alt="game_1">
+                <div class="about__text">
+                    <p class="about__number">Игра № 1</p>
+                    <p class="about__name">Угадай число</p>
+                </div>
+            </a> 
+            <a href="#game2" class="about__game">
+                <img src="img/game_2.png" alt="game_2">
+                <div class="about__text">
+                    <p class="about__number">Игра № 2</p>
+                    <p class="about__name">Простая арифметика</p>
+                </div>
+            </a> 
+            <a href="#game3" class="about__game">
+                <img src="img/game_3.png" alt="game_3">
+                <div class="about__text">
+                    <p class="about__number">Игра № 3</p>
+                    <p class="about__name">Переверни текст</p>
+                </div>
+            </a> 
+            <a href="#game4" class="about__game">
+                <img src="img/game_4.png" alt="game_4">
+                <div class="about__text">
+                    <p class="about__number">Игра № 4</p>
+                    <p class="about__name">Камень, ножницы, бумага</p>
+                </div>
+            </a> 
+            <a href="#game5" class="about__game about__game_end">
+                <img src="img/game_5.png" alt="game_5">
+                <div class="about__text">
+                    <p class="about__number">Игра № 5</p>
+                    <p class="about__name">Простая викторина</p>
+                </div>
+            </a> 
+            <a href="#game6" class="about__game">
+                <img src="img/game_6.png" alt="game_6">
+                <div class="about__text">
+                    <p class="about__number">Игра № 6</p>
+                    <p class="about__name">Генератор случайных цветов</p>
+                </div>
+            </a>  
+        </div>
+    </section>
+    <section class="games center">
+        <h2 class="games__title">Мини-игры</h2>
+        <img class="games__image-14 center" src="img/star_14.svg" alt="star_14">  
+        <img class="games__image-15 center" src="img/star_15.svg" alt="star_15">  
+        <img class="games__image-16 center" src="img/star_16.svg" alt="star_16"> 
+        <img class="games__image-17 center" src="img/star_17.svg" alt="star_17"> 
+        <div class="games__list">
+            <article class="games__game">
+                <div class="games__text">
+                    <h3 class="games__name">Угадай число</h3>
+                    <p class="games__description">Попробуй угадать случайное число от 1 до 100.</p>
+                    <button class="games__button">Играть!</button> 
+                </div>
+                <img class="games__image" id="game1" src="img/biggame_1.png" alt="biggame_1">
+            </article>
+            <article class="games__game">
+                <img class="games__image" id="game2" src="img/biggame_2.png" alt="biggame_2">
+                <div class="games__text">
+                    <h3 class="games__name">Простая арифметика</h3>
+                    <p class="games__description">Попробуй решить простые арифметические задачи.</p>
+                    <button class="games__button">Играть!</button> 
+                </div>
+            </article>
+            <article class="games__game">
+                <div class="games__text">
+                    <h3 class="games__name">Переверни текст</h3>
+                    <p class="games__description">Попробуй ввести текст, который будет перевернут.</p>
+                    <button class="games__button">Играть!</button> 
+                </div>
+                <img class="games__image" id="game3" src="img/biggame_3.png" alt="biggame_3">
+            </article>
+            <article class="games__game">
+                <img class="games__image" id="game4" src="img/biggame_4.png" alt="biggame_4">
+                <div class="games__text">
+                    <h3 class="games__name">Камень, ножницы, бумага</h3>
+                    <p class="games__description">Сыграй в популярную игру против компьютера.</p>
+                    <button class="games__button">Играть!</button> 
+                </div>
+            </article>
+            <article class="games__game">
+                <div class="games__text">
+                    <h3 class="games__name">Простая викторина</h3>
+                    <p class="games__description">Отвечай на вопросы викторины с вариантами ответов.</p>
+                    <button class="games__button">Играть!</button> 
+                </div>
+                <img class="games__image" id="game5" src="img/biggame_5.png" alt="biggame_5">
+            </article>
+            <article class="games__game">
+                <img class="games__image" id="game6" src="img/biggame_6.png" alt="biggame_6">
+                <div class="games__text">
+                    <h3 class="games__name">Генератор случайных цветов</h3>
+                    <p class="games__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
+                    <button class="games__button">Играть!</button> 
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены.</p>
+    </footer>
 </body>
-
 </html>

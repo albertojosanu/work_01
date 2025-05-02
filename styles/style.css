@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    background: rgb(32, 32, 39);
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);  
+}
+
+.header {
+    background: #E1FF8F;
+    height: 710px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header__title {
+    padding-top: 196px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    max-width: 768px;
+}
+
+.header__description {
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 720px;
+}
+
+.header__bold {
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 48px;
+    width: 247px;
+    height: 66px;
+    padding: 16px 28px 16px 28px;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: white;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header__button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.header__image {
+    position: absolute;
+    left: 734px;
+    top: -333px;
+    pointer-events: none;
+}
+
+.header__image-2 {
+    position: absolute;
+    left: -57px;
+    top: 94px;    
+    pointer-events: none;
+}
+
+.header__image-3 {
+    position: absolute;
+    left: 36px;
+    top: 69px;    
+    pointer-events: none;
+}
+
+.header__image-4 {
+    position: absolute;
+    left: 893px;
+    top: 568px;    
+    pointer-events: none;
+}
+
+.header__image-5 {
+    position: absolute;
+    left: 948px;
+    top: 538px;    
+    pointer-events: none;
+}
+
+.line {
+    background: rgb(188, 236, 48);
+    height: 90px;
+    overflow: hidden;
+}
+
+.line__list {
+    display: flex;
+    gap: 51px;
+    padding-left: 49px;
+}
+
+.line__text {
+    /*list-style-type: none;*/
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 27px;
+}
+
+.line__image {
+    padding-top: 27px;    
+}
+
+.about {
+    position: relative;
+    height: 1470px;
+    overflow: hidden;
+}
+
+.about__title {
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 94px;
+}
+
+.about__description {
+    color: white;
+    max-width: 788px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.about__image-11 {
+    position: absolute;
+    left: 813px;
+    top: 77px;    
+    transform: rotate(-6.77deg);
+    z-index: -1;
+}
+
+.about__image-12 {
+    position: absolute;
+    left: -95px;
+    top: 770px;    
+    transform: rotate(5.45deg);
+    z-index: -1;
+}
+
+.about__image-13 {
+    position: absolute;
+    left: -80px;
+    top: 822px;    
+    transform: rotate(5.45deg);
+    z-index: -1;
+}
+
+.about__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 0px;
+    padding-top: 72px;
+    max-width: 1200px;
+}
+
+.about__game {
+    align-self: flex-start;
+    width: 378px;
+    background: white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 2s;
+}
+
+.about__game:hover {
+    scale: 1.1;
+}
+
+.about__game_end {
+    align-self: flex-end;
+}
+
+.about__text {
+    padding: 36px;
+}
+
+.about__number {
+    display: inline;
+    border-radius: 52.58px;
+    background: rgb(247, 247, 247);
+    padding: 8px 16px 10px 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about__name {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 26px;
+}
+
+.games {
+    background: rgb(32, 32, 39);
+    position: relative;
+    height: 3500px;
+    overflow: hidden;
+}
+
+.games__title {
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 46px;
+}
+
+.games__image-14 {
+    position: absolute;
+    left: 1200px;
+    top: 126px;    
+    transform: rotate(5.45deg);
+    z-index: -1;
+}
+
+.games__image-15 {
+    position: absolute;
+    left: 1157px;
+    top: 93px;    
+    transform: rotate(7.08deg);
+    z-index: -1;
+}
+
+.games__image-16 {
+    position: absolute;
+    left: 1199px;
+    top: 3366px;    
+    z-index: -1;
+}
+
+.games__image-17 {
+    position: absolute;
+    left: 1129px;
+    top: 3414px;    
+    z-index: -1;
+}
+
+.games__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 72px;
+}
+
+.games__game {
+    width: 1200px;
+    height: 500px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+}
+
+.games__text {
+    width: 600px;
+    padding: 48px;
+}
+
+.games__name {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.games__description {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 24px;
+    width: 457px;
+}
+
+.games__button {
+    width: 247px;
+    height: 66px;
+    padding: 16px 28px 16px 28px;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: white;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+}
+
+.games__button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.footer {
+    background: #BDED35;
+    height: 150px;
+}
+
+.footer__text {
+    padding-top: 61px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
