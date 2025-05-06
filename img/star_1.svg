@@ -1,0 +1,27 @@
+<svg width="255.286133" height="246.338333" viewBox="0 0 255.286 246.338" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_18933_1180_dd" x="0.000000" y="0.000000" width="255.286133" height="246.338333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="effect_dropShadow_1" result="effect_dropShadow_2"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_2" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_18933_1180_dd)">
+		<path id="Vector" d="M167.24 93.53C170.09 94.31 249.3 127.34 249.3 127.34L165.26 136.24L218.35 203.49L143.5 157.56L135.87 235.41L114.78 153.42L44.46 192.42L92.9 135.18L6.93 131.31L87.73 107.41L27.69 39.19L112.11 78.37L131.42 2.78L140.1 78.53L216.99 26.28L167.24 93.53Z" fill="#BCEC30" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M249.3 127.34L165.26 136.24L218.35 203.49L143.5 157.56L135.87 235.41L114.78 153.42L44.46 192.42L92.9 135.18L6.93 131.31L87.73 107.41L27.69 39.19L112.11 78.37L131.42 2.78L140.1 78.53L216.99 26.28L167.24 93.53C170.09 94.31 249.3 127.34 249.3 127.34Z" stroke="#202027" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	</g>
+</svg>
