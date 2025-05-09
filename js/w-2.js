@@ -33,41 +33,28 @@ alert("Задание 5");
 monthNumber = 12;
 if (monthNumber >= 1 && monthNumber <= 12 && monthNumber % 1 === 0) {
     switch (monthNumber) {
+        case 12:
         case 1:
-            console.log("Зима");
-            break;
         case 2:
             console.log("Зима");
             break;
         case 3:
-            console.log("Весна");
-            break;
         case 4:
-            console.log("Весна");
-            break;
         case 5:
             console.log("Весна");
             break;
         case 6:
-            console.log("Лето");
-            break;
         case 7:
-            console.log("Лето");
-            break;
         case 8:
             console.log("Лето");
             break;
         case 9:
-            console.log("Осень");
-            break;
         case 10:
-            console.log("Осень");
-            break;
         case 11:
             console.log("Осень");
             break;
         default:
-            console.log("Зима");
+            console.log("Неверное значение");
             break;
     }
 }
