@@ -164,7 +164,6 @@ body {
     position: absolute;
     left: 813px;
     top: 77px;    
-    transform: rotate(-6.77deg);
     z-index: -1;
 }
 
@@ -172,7 +171,6 @@ body {
     position: absolute;
     left: -95px;
     top: 770px;    
-    transform: rotate(5.45deg);
     z-index: -1;
 }
 
@@ -180,7 +178,6 @@ body {
     position: absolute;
     left: -80px;
     top: 822px;    
-    transform: rotate(5.45deg);
     z-index: -1;
 }
 
@@ -247,7 +244,6 @@ body {
     position: absolute;
     left: 1200px;
     top: 126px;    
-    transform: rotate(5.45deg);
     z-index: -1;
 }
 
@@ -255,7 +251,6 @@ body {
     position: absolute;
     left: 1157px;
     top: 93px;    
-    transform: rotate(7.08deg);
     z-index: -1;
 }
 
@@ -379,7 +374,6 @@ body {
         display: block;
         left: 187.16px;
         top: -103.61px;
-        transform: rotate(108.68deg);
     }
 
     .header__image-2 {
