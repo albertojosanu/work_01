@@ -16,9 +16,9 @@ for (i = 7; i <= 22; i++) {
 console.log(message);
 alert("Задание 4");
 let obj = {
-    "Коля" : '200',
-    "Вася" : '300',
-    "Петя" : '400'
+    Коля : "200",
+    Вася : "300",
+    Петя : "400"
 }
 for (let name in obj) {
     console.log(`${name} - ${obj[name]}`);
@@ -32,14 +32,10 @@ do {
 } while (n > 50);
 console.log("Результат - " + n + ". Кол-во итераций - " + num);
 alert("Задание 6");
-/*const date = new Date();
-console.log(date);*/
-let first_friday = prompt("Введите целое число от 1 до 7");
+let first_friday = Number(prompt("Введите целое число от 1 до 7"));
 if (first_friday >= 1 && first_friday <= 7 && first_friday % 1 === 0) {
-    for (i = first_friday; i <= 31; i++) {
-        if ((i - first_friday) % 7 === 0) {
-            console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`)
-        }
+    for (i = first_friday; i <= 31; i += 7) {
+        console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`)
     }
 }
 else {
@@ -54,16 +50,31 @@ do {
 } while (k > 0);
 console.log("Результат - " + k + ". Кол-во итераций - " + iterations);
 alert("Дополнительное задание 2");
-console.log("Массивы не изучены");
+let months = ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"];
+for (let i = 0; i < months.length; i++) {
+    console.log(months[i] + " - " + (i + 1) + " месяц в году");
+}
 alert("Дополнительное задание 3");
 let book = {
-    "название" : prompt("Введите название"),
-    "автор" : prompt("Введите имя автора"),
+    название : prompt("Введите название"),
+    автор : prompt("Введите имя автора"),
     "год издания" : prompt("Введите год издания"),
-    "жанр" : prompt("Введите жанр")
+    жанр : prompt("Введите жанр")
 }
 for (let property in book) {
     console.log(`${property} - ${book[property]}`);
 }
 alert("Дополнительное задание 4");
-console.log("Массивы не изучены");
+/*let numbers = new Array(10).fill(Math.random());*/
+let numbers = [];
+for (let i = 0; i < 10; i++) {
+  numbers.push(Math.random());
+}
+console.log(numbers);
+let min_number = numbers[0];
+for (i = 1; i < numbers.length; i++) {
+    if (numbers[i] < numbers[i - 1]) {
+        min_number = numbers[i];
+    }
+}
+console.log(min_number);
