@@ -1,20 +1,20 @@
-alert("Задание 1");
+console.log("Задание 1");
 let i = 0;
 while ( i < 2) {
     console.log("Привет");
     i++;
 }
-alert("Задание 2");
+console.log("Задание 2");
 for (i = 1; i <= 5; i++) {
     console.log(i);
 }
-alert("Задание 3");
+console.log("Задание 3");
 let message = "";
 for (i = 7; i <= 22; i++) {
     message = message + " " + i;
 }
 console.log(message);
-alert("Задание 4");
+console.log("Задание 4");
 let obj = {
     Коля : "200",
     Вася : "300",
@@ -23,7 +23,7 @@ let obj = {
 for (let name in obj) {
     console.log(`${name} - ${obj[name]}`);
 }
-alert("Задание 5");
+console.log("Задание 5");
 let n = 1000;
 let num = 0;
 do {
@@ -31,17 +31,13 @@ do {
     num++; 
 } while (n > 50);
 console.log("Результат - " + n + ". Кол-во итераций - " + num);
-alert("Задание 6");
-let first_friday = Number(prompt("Введите целое число от 1 до 7"));
-if (first_friday >= 1 && first_friday <= 7 && first_friday % 1 === 0) {
-    for (i = first_friday; i <= 31; i += 7) {
-        console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`)
-    }
+console.log("Задание 6");
+let first_friday = 3;
+let allday = 31;
+for (i = first_friday; i <= allday; i += 7) {
+    console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`)
 }
-else {
-    console.log("Введено неверное число")
-}
-alert("Дополнительное задание 1");
+console.log("Дополнительное задание 1");
 let k = 100;
 let iterations = 0;
 do {
@@ -49,12 +45,12 @@ do {
     iterations++; 
 } while (k > 0);
 console.log("Результат - " + k + ". Кол-во итераций - " + iterations);
-alert("Дополнительное задание 2");
+console.log("Дополнительное задание 2");
 let months = ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"];
 for (let i = 0; i < months.length; i++) {
     console.log(months[i] + " - " + (i + 1) + " месяц в году");
 }
-alert("Дополнительное задание 3");
+console.log("Дополнительное задание 3");
 let book = {
     название : prompt("Введите название"),
     автор : prompt("Введите имя автора"),
@@ -64,11 +60,11 @@ let book = {
 for (let property in book) {
     console.log(`${property} - ${book[property]}`);
 }
-alert("Дополнительное задание 4");
+console.log("Дополнительное задание 4");
 /*let numbers = new Array(10).fill(Math.random());*/
 let numbers = [];
 for (let i = 0; i < 10; i++) {
-  numbers.push(Math.random());
+  numbers.push(Math.round(Math.random() * 10));
 }
 console.log(numbers);
 let min_number = numbers[0];
