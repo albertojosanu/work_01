@@ -69,7 +69,7 @@ for (let i = 0; i < 10; i++) {
 console.log(numbers);
 let min_number = numbers[0];
 for (i = 1; i < numbers.length; i++) {
-    if (numbers[i] < numbers[i - 1]) {
+    if (numbers[i] < min_number) {
         min_number = numbers[i];
     }
 }
