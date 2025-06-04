@@ -1,5 +1,10 @@
 function game_3() {
-    alert(prompt("Введите текст").split("").reverse().join(""));
+    try {
+        alert(prompt("Введите текст").split("").reverse().join(""));
+    }
+    catch {
+        alert("Некорректный ввод");
+    }
 }
 
 function game_5() {
@@ -21,14 +26,27 @@ function game_5() {
         }
     ];
     let count = 0;
-
+/*
     quiz.forEach(item => {
         if (Number(prompt(item.question + "\n" + item.options)) === item.correctAnswer) {
             count++;
         }
     });
-
-    alert("Количество правильных ответов: " + count)
+*/
+    let answer;
+    
+    for (let i = 0; i < quiz.length; i++) {
+        answer = prompt(quiz[i].question + "\n" + quiz[i].options);
+        if (Number(answer) === quiz[i].correctAnswer) {
+            count++;
+        }
+        else if (answer === null) {
+            break;
+        }
+        if (i === quiz.length - 1) {
+            alert("Количество правильных ответов: " + count)
+        }
+    }
 }
 
 console.log("Задание 1");
