@@ -3,7 +3,6 @@ function game_3() {
         alert(prompt("Введите текст").split("").reverse().join(""));
     }
     catch {
-        alert("Некорректный ввод");
     }
 }
 
