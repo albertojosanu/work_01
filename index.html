@@ -8,6 +8,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <style>
+            .description {
+                margin-top: 20px;
+            } 
+        </style>
     </head>
     <body>
         <header class="header center">
@@ -20,10 +25,22 @@
             <img class="header__image-2 center" src="img/star_2.svg" alt="star_2">
             <img class="header__image-3 center" src="img/star_3.svg" alt="star_3">
             <img class="header__image-4 center" src="img/star_4.svg" alt="star_4">
-            <img class="header__image-5 center" src="img/star_5.svg" alt="star_5">        
+            <img class="header__image-5 center" src="img/star_5.svg" alt="star_5">    
         </header>  
         <div class="line">
             <div class="line__list">
+                <p class="line__text">ВИКТОРИНА</p>
+                <img class="line__image" src="img/star.svg" alt="star">
+                <p class="line__text">УГАДАЙ ЧИСЛО</p>
+                <img class="line__image" src="img/star.svg" alt="star">
+                <p class="line__text">ПЕРЕВЕРНИ ТЕКСТ</p>
+                <img class="line__image" src="img/star.svg" alt="star">
+                <p class="line__text">ПРОСТАЯ АРИФМЕТИКА</p>
+                <img class="line__image" src="img/star.svg" alt="star">
+                <p class="line__text">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</p>
+                <img class="line__image" src="img/star.svg" alt="star">
+                <p class="line__text">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</p>
+                <img class="line__image" src="img/star.svg" alt="star">
                 <p class="line__text">ВИКТОРИНА</p>
                 <img class="line__image" src="img/star.svg" alt="star">
                 <p class="line__text">УГАДАЙ ЧИСЛО</p>
@@ -141,7 +158,7 @@
                     <div class="games__text">
                         <h3 class="games__name">Генератор случайных цветов</h3>
                         <p class="games__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
-                        <button class="games__button">Играть!</button> 
+                        <button class="games__button" onclick = game_6()>Играть!</button> 
                     </div>
                 </article>
             </div>
@@ -149,6 +166,6 @@
         <footer class="footer">
             <p class="footer__text">Все права защищены.</p>
         </footer>
-        <script src="js/w-08.js"></script>
+        <script src="js/w-09.js"></script>
     </body>
 </html>

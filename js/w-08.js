@@ -1,7 +1,7 @@
 function game_4() {
-    options = ["камень", "ножницы", "бумага"];
-    user_choice = Number(prompt("Введите свой выбор: \n1. Камень 2. Ножницы 3. Бумага"));
-    machine_choice = options.indexOf(options[Math.floor(Math.random() * 3)]) + 1;
+    let options = ["камень", "ножницы", "бумага"];
+    let user_choice = Number(prompt("Введите свой выбор: \n1. Камень 2. Ножницы 3. Бумага"));
+    let machine_choice = options.indexOf(options[Math.floor(Math.random() * 3)]) + 1;
     console.log("Ваш выбор: " + options[user_choice - 1]);
     console.log("Выбор оппонента: " + options[machine_choice - 1]);
     if (Number.isInteger(user_choice) && user_choice > 0 && user_choice < 4) {
